@@ -6,7 +6,7 @@ This set of instructions applies to the minimal CentOS 6.5 32bit version in a Vi
 
 Get the ISO from http://isoredirect.centos.org/centos/6/isos/i386/  
 
-Install in a new virtual machine (name the machine 'vagrant-centos65-minimal-i386'). 
+Install in a new virtual machine (name the machine 'vagrant-centos65-minimal-i386').
 
 Since this is going to be a vagrant base box the root password is 'vagrant'
 
@@ -43,7 +43,7 @@ NM_CONTROLLED=yes
 BOOTPROTO=dhcp
 ```
 
-##Cofigure OpenSSH
+##Configure OpenSSH
 
 From a root shell.
 ```bash
@@ -78,11 +78,13 @@ Reboot after installing the development packages, occasionally the build process
 
 ##Setup port forwarding  
 
-Shutdown the virtual machine and run 
+Shutdown the virtual machine and run
 ```bash
 VBoxManage modifyvm "vagrant-centos65-minimal-i386" --natpf1 "guestssh,tcp,,2222,,22"
 ```
 ##Install Chef
+
+Skipped
 
 ##Clean up
 
