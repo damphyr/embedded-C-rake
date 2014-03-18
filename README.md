@@ -4,4 +4,6 @@ This repository contains notes, examples and documentation in support of a serie
 
 Together with the blog posts it should form the definitive HOWTO for [Gaudi](http://github.com/damphyr/gaudi) usage.
 
-The first entry in the blog post series is [Building with rake I: Introduction](http://www.ampelofilosofies.gr/software/2013/10/22/building-with-rake-I/)
+The blog entries to date are:
+ * [Building with rake I: Introduction](http://www.ampelofilosofies.gr/software/2013/10/22/building-with-rake-I)
+ * [Building with rake II: Setup](http://www.ampelofilosofies.gr/software/2014/03/15/building-with-rake-II)
