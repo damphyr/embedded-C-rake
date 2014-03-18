@@ -97,5 +97,5 @@ Shutdown the VM
 ##Package the base box
 
 ```bash
-`vagrant package --output centos65-minimal-i386.box --base vagrant-centos65-minimal-i386
-``
+vagrant package --output centos65-minimal-i386.box --base vagrant-centos65-minimal-i386
+```
