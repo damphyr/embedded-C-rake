@@ -20,6 +20,9 @@ gem update --system
 gem i bundler
 cd /home/vagrant/host_share
 rpm --install gnurx_v14.01_elf-1-1.i386.rpm
+cp bash_profile /home/vagrant/.bash_profile
+chown vagrant:vagrant /home/vagrant/.bash_profile
+chmod 544 /home/vagrant/.bash_profile
 EOT
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
