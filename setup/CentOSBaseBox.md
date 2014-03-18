@@ -84,7 +84,7 @@ VBoxManage modifyvm "vagrant-centos65-minimal-i386" --natpf1 "guestssh,tcp,,2222
 ```
 ##Install Chef
 
-Skipped
+Skipped. For this example we will use the shell provisioner and embed the shell script in the [Vagrantfile](https://github.com/damphyr/embedded-C-rake/blob/master/Vagrantfile)
 
 ##Clean up
 
