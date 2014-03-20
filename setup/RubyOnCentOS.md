@@ -18,6 +18,7 @@ sudo make
 sudo make install
 #at this point we need to reload the terminal environment for everything to work.
 #the neatest way to do this is:
+#CAUTION, this will only work if you configure the system to allow passwordless sudo for the vagrant user
 exec su
 gem update --system
 gem i bundler
