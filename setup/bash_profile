@@ -4,5 +4,6 @@ if [ -f ~/.bashrc ]; then
         . ~/.bashrc
 fi
 # User specific environment and startup programs
-PATH=$PATH:$HOME/bin:usr/share/gnurx_v14.01_elf-1/bin
+PATH=$PATH:$HOME/bin:/usr/share/gnurx_v14.01_elf-1/bin
+
 export PATH

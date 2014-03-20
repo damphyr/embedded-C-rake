@@ -15,14 +15,14 @@ cd ruby-2.1.1
 ./configure
 make
 make install
+echo Setting up environment
+cp /home/vagrant/host_share/setup/bash_profile /home/vagrant/.bash_profile
+chown vagrant:vagrant /home/vagrant/.bash_profile
+chmod 544 /home/vagrant/.bash_profile
+rpm --install /home/vagrant/host_share/setup/gnurx_v14.01_elf-1-1.i386.rpm
 exec su
 gem update --system
 gem i bundler
-cd /home/vagrant/host_share
-rpm --install gnurx_v14.01_elf-1-1.i386.rpm
-cp bash_profile /home/vagrant/.bash_profile
-chown vagrant:vagrant /home/vagrant/.bash_profile
-chmod 544 /home/vagrant/.bash_profile
 EOT
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
