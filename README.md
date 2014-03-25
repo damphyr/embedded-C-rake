@@ -7,3 +7,4 @@ Together with the blog posts it should form the definitive HOWTO for [Gaudi](htt
 The blog entries to date are:
  * [Building with rake I: Introduction](http://www.ampelofilosofies.gr/software/2013/10/22/building-with-rake-I)
  * [Building with rake II: Setup](http://www.ampelofilosofies.gr/software/2014/03/15/building-with-rake-II)
+ * [Building with rake III: Provisions](http://www.ampelofilosofies.gr/software/2014/03/19/building-with-rake-III)
